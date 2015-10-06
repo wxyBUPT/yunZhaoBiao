@@ -1,0 +1,312 @@
+testLog     :INFO     xi
+2015-10-05 15:12:51,577-test.py:27-testLog-xi
+2015-10-05 15:17:53,070-test.py:20-testLog-执行测试脚本包括 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:29:22,736-test.py:22-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:29:40,959-test.py:22-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:29:48,156-test.py:22-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:30:00,810-test.py:22-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:30:39,530-test.py:22-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:30:52,715-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:32:13,359-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:34:50,984-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:35:28,606-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:35:47,993-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:36:00,720-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:36:09,095-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:36:17,954-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:36:44,475-test.py:23-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:42:15,074-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:42:32,385-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:42:43,573-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:42:59,519-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:43:42,702-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:44:12,062-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:45:07,610-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:45:17,710-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:46:07,235-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 15:46:16,723-test.py:24-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 20:28:03,100-test.py:26-testLog-执行测试 ['judgeFinish.py', 'LoginPage.py', 'manTest.py', 'message.py', 'newProject.py', 'PageCommonContent.py', 'peocessThirty.py', 'process.py', 'processFive.py', 'processOne.py', 'processSeventeen.py', 'processSix.py', 'processThirteen.py', 'processThree.py', 'processTwelve.py', 'processTwentySeven.py', 'test.py', 'zhaobiaoInfo.py']
+2015-10-05 20:29:58,386-test.py:26-testLog-执行测试 ['dirFileOne.py']
+2015-10-05 20:30:56,368-test.py:26-testLog-执行测试 ['dirFileOne.py']
+2015-10-05 20:31:17,910-test.py:26-testLog-执行测试 ['dirFileOne.py']
+2015-10-05 20:33:37,923-test.py:26-testLog-执行测试 ['dirFileOne.py']
+2015-10-05 20:33:54,811-test.py:26-testLog-执行测试 ['dirFileOne.py']
+2015-10-05 20:42:00,001-test.py:25-testLog-执行测试 ['dirFileOne.py']
+2015-10-05 21:29:39,761-test.py:25-testLog- 
+2015-10-05 21:29:39,763-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 21:29:39,764-test.py:30-testLog-执行dirFileOne
+2015-10-05 21:30:08,444-test.py:25-testLog- 
+2015-10-05 21:30:08,444-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 21:30:08,445-test.py:30-testLog-执行dirFileOne
+2015-10-05 21:30:37,801-test.py:25-testLog- 
+2015-10-05 21:30:37,801-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 21:30:37,802-test.py:30-testLog-执行dirFileOne
+2015-10-05 21:30:37,807-test.py:30-testLog-执行testBase
+2015-10-05 21:34:26,708-test.py:25-testLog- 
+2015-10-05 21:34:26,708-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 21:34:26,709-test.py:30-testLog-执行dirFileOne
+2015-10-05 21:34:26,714-test.py:30-testLog-执行testBase
+2015-10-05 21:37:48,242-test.py:26-testLog- 
+2015-10-05 21:37:48,242-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 21:37:48,243-test.py:31-testLog-执行dirFileOne
+2015-10-05 21:37:48,245-test.py:31-testLog-执行testBase
+2015-10-05 21:38:02,746-test.py:26-testLog- 
+2015-10-05 21:38:02,746-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 21:38:02,747-test.py:31-testLog-执行dirFileOne
+2015-10-05 21:38:02,748-test.py:31-testLog-执行testBase
+2015-10-05 21:38:27,573-test.py:26-testLog- 
+2015-10-05 21:38:27,573-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 21:38:27,574-test.py:31-testLog-执行dirFileOne
+2015-10-05 21:38:27,574-test.py:31-testLog-执行testBase
+2015-10-05 22:00:27,421-test.py:26-testLog- 
+2015-10-05 22:00:27,421-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:00:27,421-test.py:40-testLog-执行dirFileOne
+2015-10-05 22:00:27,423-test.py:52-testLog-ui测试dirFileOne成功
+2015-10-05 22:00:27,423-test.py:40-testLog-执行testBase
+2015-10-05 22:00:27,423-test.py:52-testLog-ui测试testBase成功
+2015-10-05 22:18:56,177-test.py:26-testLog- 
+2015-10-05 22:18:56,177-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:18:56,178-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:18:56,179-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:18:56,179-test.py:57-testLog-执行testBase
+2015-10-05 22:18:56,180-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:19:14,183-test.py:26-testLog- 
+2015-10-05 22:19:14,183-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:19:14,183-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:19:14,184-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:19:14,184-test.py:57-testLog-执行testBase
+2015-10-05 22:19:14,185-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:20:03,142-test.py:26-testLog- 
+2015-10-05 22:20:03,143-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:20:03,143-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:20:03,144-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:20:03,144-test.py:57-testLog-执行testBase
+2015-10-05 22:20:03,144-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:42:42,189-test.py:26-testLog- 
+2015-10-05 22:42:42,189-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:42:42,190-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:42:42,191-test.py:68-testLog-ui测试dirFileOne成功
+2015-10-05 22:42:42,191-test.py:57-testLog-执行testBase
+2015-10-05 22:42:42,192-test.py:68-testLog-ui测试testBase成功
+2015-10-05 22:42:58,044-test.py:26-testLog- 
+2015-10-05 22:42:58,044-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:42:58,044-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:42:58,045-test.py:68-testLog-ui测试dirFileOne成功
+2015-10-05 22:42:58,045-test.py:57-testLog-执行testBase
+2015-10-05 22:42:58,045-test.py:68-testLog-ui测试testBase成功
+2015-10-05 22:43:24,945-test.py:26-testLog- 
+2015-10-05 22:43:24,945-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:43:24,946-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:43:24,946-test.py:68-testLog-ui测试dirFileOne成功
+2015-10-05 22:43:24,946-test.py:57-testLog-执行testBase
+2015-10-05 22:43:24,946-test.py:68-testLog-ui测试testBase成功
+2015-10-05 22:43:35,572-test.py:26-testLog- 
+2015-10-05 22:43:35,572-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:43:35,572-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:43:35,573-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:43:35,573-test.py:57-testLog-执行testBase
+2015-10-05 22:43:35,574-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:43:53,292-test.py:26-testLog- 
+2015-10-05 22:43:53,292-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:43:53,293-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:43:53,293-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:43:53,293-test.py:57-testLog-执行testBase
+2015-10-05 22:43:53,293-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:44:56,797-test.py:26-testLog- 
+2015-10-05 22:44:56,797-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:44:56,797-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:44:56,799-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:44:56,799-test.py:57-testLog-执行testBase
+2015-10-05 22:44:56,800-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:45:10,993-test.py:26-testLog- 
+2015-10-05 22:45:10,993-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:45:10,994-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:45:10,994-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:45:10,994-test.py:57-testLog-执行testBase
+2015-10-05 22:45:10,994-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:45:47,862-test.py:26-testLog- 
+2015-10-05 22:45:47,862-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:45:47,862-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:45:47,863-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:45:47,863-test.py:57-testLog-执行testBase
+2015-10-05 22:45:47,863-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:45:58,069-test.py:26-testLog- 
+2015-10-05 22:45:58,069-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:45:58,069-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:45:58,070-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:45:58,070-test.py:57-testLog-执行testBase
+2015-10-05 22:45:58,070-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:46:35,040-test.py:26-testLog- 
+2015-10-05 22:46:35,040-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:46:35,040-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:46:35,041-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:46:35,041-test.py:57-testLog-执行testBase
+2015-10-05 22:46:35,041-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:47:14,365-test.py:26-testLog- 
+2015-10-05 22:47:14,365-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:47:14,366-test.py:57-testLog-执行dirFileOne
+2015-10-05 22:47:14,366-test.py:66-testLog-ui测试dirFileOne失败
+2015-10-05 22:47:14,366-test.py:57-testLog-执行testBase
+2015-10-05 22:47:14,367-test.py:66-testLog-ui测试testBase失败
+2015-10-05 22:50:07,185-test.py:26-testLog- 
+2015-10-05 22:50:07,185-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:50:07,185-test.py:60-testLog-执行dirFileOne
+2015-10-05 22:50:07,186-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-05 22:50:07,186-test.py:60-testLog-执行testBase
+2015-10-05 22:50:07,186-test.py:69-testLog-ui测试testBase失败
+2015-10-05 22:51:28,895-test.py:26-testLog- 
+2015-10-05 22:51:28,895-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 22:51:28,895-test.py:60-testLog-执行dirFileOne
+2015-10-05 22:51:28,896-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-05 22:51:28,897-test.py:60-testLog-执行testBase
+2015-10-05 22:51:28,897-test.py:69-testLog-ui测试testBase失败
+2015-10-05 23:07:26,759-test.py:26-testLog- 
+2015-10-05 23:07:26,760-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 23:07:52,603-test.py:26-testLog- 
+2015-10-05 23:07:52,604-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 23:07:52,604-test.py:60-testLog-执行dirFileOne
+2015-10-05 23:07:52,606-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-05 23:07:52,606-test.py:60-testLog-执行testBase
+2015-10-05 23:07:52,606-test.py:69-testLog-ui测试testBase失败
+2015-10-05 23:11:47,847-test.py:26-testLog- 
+2015-10-05 23:11:47,848-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 23:11:47,849-test.py:60-testLog-执行dirFileOne
+2015-10-05 23:11:47,850-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-05 23:11:47,850-test.py:60-testLog-执行testBase
+2015-10-05 23:11:47,851-test.py:69-testLog-ui测试testBase失败
+2015-10-05 23:12:13,140-test.py:26-testLog- 
+2015-10-05 23:12:13,141-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-05 23:12:13,141-test.py:60-testLog-执行dirFileOne
+2015-10-05 23:12:13,142-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-05 23:12:13,142-test.py:60-testLog-执行testBase
+2015-10-05 23:12:13,142-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:39:30,120-test.py:26-testLog- 
+2015-10-06 10:39:30,120-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:39:30,121-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:39:30,121-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:39:30,121-test.py:60-testLog-执行testBase
+2015-10-06 10:39:30,122-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:39:58,144-test.py:26-testLog- 
+2015-10-06 10:39:58,144-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:39:58,144-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:39:58,146-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:39:58,147-test.py:60-testLog-执行testBase
+2015-10-06 10:39:58,148-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:40:05,506-test.py:26-testLog- 
+2015-10-06 10:40:05,506-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:40:05,507-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:40:05,507-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:40:05,507-test.py:60-testLog-执行testBase
+2015-10-06 10:40:05,507-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:41:05,566-test.py:26-testLog- 
+2015-10-06 10:41:05,566-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:41:05,566-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:41:05,567-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:41:05,567-test.py:60-testLog-执行testBase
+2015-10-06 10:41:05,567-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:41:25,664-test.py:26-testLog- 
+2015-10-06 10:41:25,664-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:41:25,664-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:41:25,664-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:41:25,664-test.py:60-testLog-执行testBase
+2015-10-06 10:41:25,665-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:43:36,600-test.py:26-testLog- 
+2015-10-06 10:43:36,600-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:43:36,600-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:43:36,601-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:43:36,601-test.py:60-testLog-执行testBase
+2015-10-06 10:43:36,601-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:44:17,609-test.py:26-testLog- 
+2015-10-06 10:44:17,609-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:44:17,611-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:44:17,611-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:44:17,612-test.py:60-testLog-执行testBase
+2015-10-06 10:44:17,612-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:48:08,106-test.py:26-testLog- 
+2015-10-06 10:48:08,107-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:48:08,107-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:48:08,108-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:48:08,108-test.py:60-testLog-执行testBase
+2015-10-06 10:48:08,108-test.py:69-testLog-ui测试testBase失败
+2015-10-06 10:55:30,598-test.py:26-testLog- 
+2015-10-06 10:55:30,598-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 10:55:30,598-test.py:60-testLog-执行dirFileOne
+2015-10-06 10:55:30,599-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 10:55:30,599-test.py:60-testLog-执行testBase
+2015-10-06 10:55:30,599-test.py:69-testLog-ui测试testBase失败
+2015-10-06 11:23:17,512-test.py:26-testLog- 
+2015-10-06 11:23:17,513-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 11:23:17,513-test.py:60-testLog-执行dirFileOne
+2015-10-06 11:23:17,513-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 11:23:17,514-test.py:60-testLog-执行testBase
+2015-10-06 11:23:17,514-test.py:69-testLog-ui测试testBase失败
+2015-10-06 11:54:22,719-test.py:26-testLog- 
+2015-10-06 11:54:22,719-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 11:54:22,720-test.py:60-testLog-执行dirFileOne
+2015-10-06 11:54:22,721-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 11:54:22,721-test.py:60-testLog-执行testBase
+2015-10-06 11:54:22,722-test.py:69-testLog-ui测试testBase失败
+2015-10-06 11:57:55,436-test.py:26-testLog- 
+2015-10-06 11:57:55,437-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 11:57:55,438-test.py:60-testLog-执行dirFileOne
+2015-10-06 11:57:55,439-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 11:57:55,439-test.py:60-testLog-执行testBase
+2015-10-06 11:57:55,440-test.py:69-testLog-ui测试testBase失败
+2015-10-06 12:06:15,793-test.py:26-testLog- 
+2015-10-06 12:06:15,793-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 12:06:15,793-test.py:60-testLog-执行dirFileOne
+2015-10-06 12:06:15,795-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 12:06:15,795-test.py:60-testLog-执行testBase
+2015-10-06 12:06:15,796-test.py:69-testLog-ui测试testBase失败
+2015-10-06 12:09:07,469-test.py:26-testLog- 
+2015-10-06 12:09:07,469-test.py:27-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 12:09:07,469-test.py:60-testLog-执行dirFileOne
+2015-10-06 12:09:07,470-test.py:69-testLog-ui测试dirFileOne失败
+2015-10-06 12:09:07,470-test.py:60-testLog-执行testBase
+2015-10-06 12:09:07,470-test.py:69-testLog-ui测试testBase失败
+2015-10-06 12:09:08,948-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-06 12:09:38,477-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-06 12:09:40,764-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-06 12:09:40,968-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-06 12:09:41,144-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-06 12:13:33,356-test.py:25-testLog- 
+2015-10-06 12:13:33,356-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 12:13:33,356-test.py:59-testLog-执行dirFileOne
+2015-10-06 12:13:33,357-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-06 12:13:33,357-test.py:59-testLog-执行testBase
+2015-10-06 12:13:33,357-test.py:68-testLog-ui测试testBase失败
+2015-10-06 12:13:35,293-testLogic.py:42-testLog-今天的测试任务出现了bug
+2015-10-06 12:13:49,307-testLogic.py:42-testLog-今天的测试任务出现了bug
+2015-10-06 12:13:52,279-testLogic.py:42-testLog-今天的测试任务出现了bug
+2015-10-06 12:27:47,664-test.py:25-testLog- 
+2015-10-06 12:27:47,664-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 12:27:47,665-test.py:59-testLog-执行dirFileOne
+2015-10-06 12:27:47,666-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-06 12:27:47,666-test.py:59-testLog-执行testBase
+2015-10-06 12:27:47,667-test.py:68-testLog-ui测试testBase失败
+2015-10-06 12:27:49,124-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-06 12:27:49,124-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 94, in sendMail
+    receiverEmail=EmailAdd[key]
+KeyError: u'zhongtianlong'
+
+2015-10-06 12:43:26,162-test.py:25-testLog- 
+2015-10-06 12:43:26,162-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-06 12:43:26,162-test.py:59-testLog-执行dirFileOne
+2015-10-06 12:43:26,164-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-06 12:43:26,165-test.py:59-testLog-执行testBase
+2015-10-06 12:43:26,165-test.py:68-testLog-ui测试testBase失败
+2015-10-06 12:43:27,731-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-06 12:43:27,732-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 94, in sendMail
+    receiverEmail=EmailAdd[key]
+KeyError: u'zhongtianlong'
+
