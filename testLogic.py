@@ -10,6 +10,7 @@ def runTest():
     oneTest=test.TestForOneTime()
     oneTest.runTest()
     oneTest.sendMail()
+    oneTest.plot()
 
 #下面为每天定时执行的代码，每天八点执行
 import time
@@ -44,9 +45,10 @@ def run(testTime=None):
             logger.warning(u'%s'%(traceback.format_exc()))
             from conf.conf import SmtpEmailSender
             sender=SmtpEmailSender()
-            sender.sendEmailTo('746451950@qq.com',traceback.format_exc())
+            sender.sendEmailTo('1223994635@qq.com',traceback.format_exc())
+            print traceback.format_exc()
 
 if __name__=="__main__":
     from conf.conf import testTime
-    testTime=(datetime.now()+timedelta(seconds=10)).time()
+    testTime=(datetime.now()+timedelta(seconds=1)).time()
     a=run(testTime)

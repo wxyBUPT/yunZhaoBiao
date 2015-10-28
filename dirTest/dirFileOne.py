@@ -3,7 +3,8 @@ __author__ = 'xiyuanbupt'
 from testBase import TestBase
 
 class DirFileOne(TestBase):
-    def runTest(self):
-        print u'我正在运行'
+    pass
+    #def _runTest(self):
+    #   print u'我正在运行'
 
 uiTest=DirFileOne(backEndDeveloper='zhongtianlong',description=u'本次并非基类的测试')

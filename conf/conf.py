@@ -4,7 +4,8 @@ import datetime
 
 #对应开发人员和相应的邮箱地址，
 EmailAdd={
-    'wangxiyuan':'746451950@qq.com'
+    'wangxiyuan':'1223994635@qq.com',
+    'zhongtianlong':'1223994635@qq.com',
 }
 
 #定义每天执行测试的时间，目前规定一天执行一次自动化测试，每天早晨八点执行自动化测试
@@ -53,7 +54,7 @@ class SmtpEmailSender(object):
         self.password='wxy1992'
 
     def sendEmailTo(self,receiverEmail,htmlContent):
-        msg=MIMEText(u'<html><h1>下面是相关的Bug</h1><h2>测试执行时间%s</h2><body>%s</body></html>'%(datetime.datetime.now(),htmlContent),'html','utf-8')
+        msg=MIMEText(u'<html><h1>下面和你相关的Bug</h1><h2>测试执行时间%s</h2><body>%s</body></html>'%(datetime.datetime.now(),htmlContent),'html','utf-8')
         msg['Subject']=Header(self.subject,'utf-8')
 
         smtp=smtplib.SMTP()

@@ -24,16 +24,10 @@ class TestBase(object):
         self.frontEndLang=frontEndLan
         self.uiTester=uiTester
         self.des=description
+        self.res={}
 
-    def runTest(self):
-        return 1
-
-    def getRes(self):
-        '''
-        规定所有测试类的getRes的返回值必须包含以下参数
-        即子类中不管使用什么方法，都要返回正确的res格式
-        :return:
-        '''
+    def _runTest(self):
+        print u'我正在执行，相关测试结果需要在这里赋值'
         res={}
         #1 代表执行成功，0代表执行不成功
         res['res']=0
@@ -48,7 +42,18 @@ class TestBase(object):
         res['detail']=None
         #初始化的描述信息
         res['des']=self.des
-        return json.dumps(res)
+        self.res=res
+        #print self.res
+
+    def getRes(self):
+        '''
+        规定所有测试类的getRes的返回值必须包含以下参数
+        即子类中不管使用什么方法，都要返回正确的res格式
+        :return:
+        '''
+        #print u'getRes在执行'
+        self._runTest()
+        return json.dumps(self.res)
 
 #uiTest为在每一个测试脚本中必须包含的TestBase实例
 uiTest=TestBase()

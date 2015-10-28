@@ -310,3 +310,507 @@ KeyError: u'zhongtianlong'
     receiverEmail=EmailAdd[key]
 KeyError: u'zhongtianlong'
 
+2015-10-14 15:55:28,469-test.py:25-testLog- 
+2015-10-14 15:55:28,471-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-14 15:55:28,471-test.py:59-testLog-执行dirFileOne
+2015-10-14 15:55:28,472-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-14 15:55:28,473-test.py:59-testLog-执行testBase
+2015-10-14 15:55:28,474-test.py:68-testLog-ui测试testBase失败
+2015-10-14 15:55:30,789-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-14 15:55:30,791-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 94, in sendMail
+    receiverEmail=EmailAdd[key]
+KeyError: u'zhongtianlong'
+
+2015-10-26 11:17:18,553-test.py:25-testLog- 
+2015-10-26 11:17:18,554-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 11:17:18,554-test.py:59-testLog-执行dirFileOne
+2015-10-26 11:17:18,556-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-26 11:17:18,556-test.py:59-testLog-执行testBase
+2015-10-26 11:17:18,556-test.py:68-testLog-ui测试testBase失败
+2015-10-26 11:17:18,984-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 11:17:18,986-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 96, in sendMail
+    SmtpEmailSender().sendEmailTo(receiverEmail,a.html)
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/conf/conf.py", line 61, in sendEmailTo
+    smtp.login(self.username,self.password)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, 'Error: authentication failed, system busy')
+
+2015-10-26 11:17:59,469-test.py:25-testLog- 
+2015-10-26 11:17:59,469-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 11:17:59,470-test.py:59-testLog-执行dirFileOne
+2015-10-26 11:17:59,470-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-26 11:17:59,471-test.py:59-testLog-执行testBase
+2015-10-26 11:17:59,471-test.py:68-testLog-ui测试testBase失败
+2015-10-26 11:18:01,312-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 11:18:01,313-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 94, in sendMail
+    receiverEmail=EmailAdd[key]
+KeyError: u'zhongtianlong'
+
+2015-10-26 11:20:17,943-test.py:25-testLog- 
+2015-10-26 11:20:17,943-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 11:20:17,944-test.py:59-testLog-执行dirFileOne
+2015-10-26 11:20:17,945-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-26 11:20:17,945-test.py:59-testLog-执行testBase
+2015-10-26 11:20:17,945-test.py:68-testLog-ui测试testBase失败
+2015-10-26 11:20:19,572-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 11:20:19,573-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/testLogic.py", line 41, in run
+    runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 94, in sendMail
+    receiverEmail=EmailAdd[key]
+KeyError: u'zhongtianlong'
+
+2015-10-26 11:22:07,924-test.py:25-testLog- 
+2015-10-26 11:22:07,925-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 11:22:07,925-test.py:59-testLog-执行dirFileOne
+2015-10-26 11:22:07,927-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-26 11:22:07,927-test.py:59-testLog-执行testBase
+2015-10-26 11:22:07,927-test.py:68-testLog-ui测试testBase失败
+2015-10-26 11:22:07,927-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 11:22:07,928-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/testLogic.py", line 41, in run
+    runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 94, in sendMail
+    receiverEmail=EmailAdd[key]
+KeyError: u'zhaotianlong'
+
+2015-10-26 11:27:41,664-test.py:25-testLog- 
+2015-10-26 11:27:41,664-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 11:27:41,665-test.py:59-testLog-执行dirFileOne
+2015-10-26 11:27:41,666-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-26 11:27:41,666-test.py:59-testLog-执行testBase
+2015-10-26 11:27:41,667-test.py:68-testLog-ui测试testBase失败
+2015-10-26 11:29:06,629-test.py:25-testLog- 
+2015-10-26 11:29:06,630-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 11:29:06,630-test.py:59-testLog-执行dirFileOne
+2015-10-26 11:29:06,631-test.py:68-testLog-ui测试dirFileOne失败
+2015-10-26 11:29:06,631-test.py:59-testLog-执行testBase
+2015-10-26 11:29:06,631-test.py:68-testLog-ui测试testBase失败
+2015-10-26 21:14:22,219-test.py:25-testLog- 
+2015-10-26 21:14:22,219-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:14:22,220-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:14:22,223-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:14:22,223-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 71, in runTest
+    if res['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:16:05,406-test.py:25-testLog- 
+2015-10-26 21:16:05,406-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:16:05,406-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:16:05,407-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:16:05,407-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 71, in runTest
+    if res['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:20:35,982-test.py:25-testLog- 
+2015-10-26 21:20:35,982-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:20:35,982-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:20:35,983-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:20:35,984-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 71, in runTest
+    if res['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:22:30,590-test.py:25-testLog- 
+2015-10-26 21:22:30,590-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:22:30,591-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:22:30,591-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:22:30,592-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 71, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:23:04,102-test.py:25-testLog- 
+2015-10-26 21:23:04,102-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:23:04,102-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:23:04,103-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:23:04,104-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 72, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:23:31,287-test.py:25-testLog- 
+2015-10-26 21:23:31,287-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:23:31,287-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:23:31,288-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:23:31,289-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 73, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:25:06,718-test.py:25-testLog- 
+2015-10-26 21:25:06,718-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:25:06,718-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:25:06,719-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:25:06,720-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 72, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:26:05,620-test.py:25-testLog- 
+2015-10-26 21:26:05,620-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:26:05,621-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:26:05,622-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:26:05,622-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 73, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:27:20,074-test.py:25-testLog- 
+2015-10-26 21:27:20,074-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:27:20,074-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:27:20,076-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:27:20,076-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 73, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:28:40,870-test.py:25-testLog- 
+2015-10-26 21:28:40,871-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:28:40,871-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:28:40,872-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:28:40,873-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 73, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 21:29:59,337-test.py:25-testLog- 
+2015-10-26 21:29:59,337-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:29:59,337-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:29:59,339-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:29:59,339-test.py:63-testLog-执行testBase
+2015-10-26 21:29:59,340-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:29:59,506-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:29:59,507-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 108, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 103, in __getEmaiTab
+    return tablib.Dataset(*data,headers=headers)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 167, in __init__
+    self.headers = kwargs['headers']
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 332, in _set_headers
+    self._validate(collection)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 280, in _validate
+    raise InvalidDimensions
+InvalidDimensions
+
+2015-10-26 21:31:42,488-test.py:25-testLog- 
+2015-10-26 21:31:42,488-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:31:42,488-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:31:42,489-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:31:42,489-test.py:63-testLog-执行testBase
+2015-10-26 21:31:42,490-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:31:42,605-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:31:42,606-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 110, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 105, in __getEmaiTab
+    return tablib.Dataset(*data,headers=headers)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 167, in __init__
+    self.headers = kwargs['headers']
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 332, in _set_headers
+    self._validate(collection)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 280, in _validate
+    raise InvalidDimensions
+InvalidDimensions
+
+2015-10-26 21:32:37,817-test.py:25-testLog- 
+2015-10-26 21:32:37,817-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:32:37,817-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:32:37,818-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:32:37,818-test.py:63-testLog-执行testBase
+2015-10-26 21:32:37,819-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:32:37,935-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:32:37,936-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 110, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 105, in __getEmaiTab
+    return tablib.Dataset(*data,headers=headers)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 167, in __init__
+    self.headers = kwargs['headers']
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 332, in _set_headers
+    self._validate(collection)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 280, in _validate
+    raise InvalidDimensions
+InvalidDimensions
+
+2015-10-26 21:34:51,745-test.py:25-testLog- 
+2015-10-26 21:34:51,745-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:34:51,746-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:34:51,746-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:34:51,746-test.py:63-testLog-执行testBase
+2015-10-26 21:34:51,747-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:34:51,871-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:34:51,871-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 114, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 109, in __getEmaiTab
+    return tablib.Dataset(*data,headers=headers)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 167, in __init__
+    self.headers = kwargs['headers']
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 332, in _set_headers
+    self._validate(collection)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 280, in _validate
+    raise InvalidDimensions
+InvalidDimensions
+
+2015-10-26 21:35:42,018-test.py:25-testLog- 
+2015-10-26 21:35:42,018-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:35:42,018-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:35:42,019-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:35:42,019-test.py:63-testLog-执行testBase
+2015-10-26 21:35:42,020-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:43:55,339-test.py:25-testLog- 
+2015-10-26 21:43:55,339-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:43:55,340-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:43:55,340-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:43:55,341-test.py:63-testLog-执行testBase
+2015-10-26 21:43:55,341-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:43:55,455-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:43:55,455-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 126, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 121, in __getEmaiTab
+    return tablib.Dataset(*data,headers=headers)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 167, in __init__
+    self.headers = kwargs['headers']
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 332, in _set_headers
+    self._validate(collection)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 280, in _validate
+    raise InvalidDimensions
+InvalidDimensions
+
+2015-10-26 21:44:33,155-test.py:25-testLog- 
+2015-10-26 21:44:33,156-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:44:33,156-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:44:33,157-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:44:33,157-test.py:63-testLog-执行testBase
+2015-10-26 21:44:33,157-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:44:33,278-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:44:33,278-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 126, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 121, in __getEmaiTab
+    return tablib.Dataset(*data,headers=headers)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 167, in __init__
+    self.headers = kwargs['headers']
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 332, in _set_headers
+    self._validate(collection)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 280, in _validate
+    raise InvalidDimensions
+InvalidDimensions
+
+2015-10-26 21:45:32,106-test.py:25-testLog- 
+2015-10-26 21:45:32,106-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:45:32,106-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:45:32,107-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:45:32,107-test.py:63-testLog-执行testBase
+2015-10-26 21:45:32,108-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:46:51,515-test.py:25-testLog- 
+2015-10-26 21:46:51,516-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:46:51,516-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:46:51,517-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:46:51,517-test.py:63-testLog-执行testBase
+2015-10-26 21:46:51,517-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:46:51,637-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:46:51,638-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 126, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 121, in __getEmaiTab
+    return tablib.Dataset(*data,headers=headers)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 167, in __init__
+    self.headers = kwargs['headers']
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 332, in _set_headers
+    self._validate(collection)
+  File "/Library/Python/2.7/site-packages/tablib/core.py", line 280, in _validate
+    raise InvalidDimensions
+InvalidDimensions
+
+2015-10-26 21:53:19,032-test.py:25-testLog- 
+2015-10-26 21:53:19,032-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:53:19,032-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:53:19,033-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:53:19,033-test.py:63-testLog-执行testBase
+2015-10-26 21:53:19,034-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:55:09,415-test.py:25-testLog- 
+2015-10-26 21:55:09,416-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:55:09,416-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:55:09,417-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:55:09,417-test.py:63-testLog-执行testBase
+2015-10-26 21:55:09,417-test.py:76-testLog-ui测试testBase失败
+2015-10-26 21:55:09,534-testLogic.py:43-testLog-今天的测试任务出现了bug
+2015-10-26 21:55:09,534-testLogic.py:44-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 41, in run
+    runTest()
+  File "testLogic.py", line 12, in runTest
+    oneTest.sendMail()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 125, in sendMail
+    a=self.__getEmaiTab(self.dictEmailInfo[key])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 119, in __getEmaiTab
+    verifyData(data)
+TypeError: verifyData() takes exactly 2 arguments (1 given)
+
+2015-10-26 21:55:24,348-test.py:25-testLog- 
+2015-10-26 21:55:24,349-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 21:55:24,349-test.py:63-testLog-执行dirFileOne
+2015-10-26 21:55:24,350-test.py:76-testLog-ui测试dirFileOne失败
+2015-10-26 21:55:24,350-test.py:63-testLog-执行testBase
+2015-10-26 21:55:24,350-test.py:76-testLog-ui测试testBase失败
+2015-10-26 22:51:35,380-test.py:25-testLog- 
+2015-10-26 22:51:35,380-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 22:51:35,381-test.py:63-testLog-执行dirFileOne
+2015-10-26 22:51:35,383-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-26 22:51:35,383-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 73, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 22:52:59,779-test.py:25-testLog- 
+2015-10-26 22:52:59,779-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 22:52:59,779-test.py:63-testLog-执行dirFileOne
+2015-10-26 22:52:59,780-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-26 22:52:59,780-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 74, in runTest
+    if tmp['res']==0:
+KeyError: 'res'
+
+2015-10-26 22:53:36,588-test.py:25-testLog- 
+2015-10-26 22:53:36,588-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 22:53:36,589-test.py:63-testLog-执行dirFileOne
+2015-10-26 22:53:36,589-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-26 22:54:10,397-test.py:25-testLog- 
+2015-10-26 22:54:10,397-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 22:54:10,397-test.py:63-testLog-执行dirFileOne
+2015-10-26 22:54:10,399-test.py:77-testLog-ui测试dirFileOne失败
+2015-10-26 22:54:10,399-test.py:63-testLog-执行testBase
+2015-10-26 22:54:10,400-test.py:77-testLog-ui测试testBase失败
+2015-10-26 22:54:15,045-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-26 22:54:15,045-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 13, in runTest
+    oneTest.plot()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 140, in plot
+    ax=fig.scatter(x_values,y_values)
+AttributeError: 'Figure' object has no attribute 'scatter'
+
+2015-10-26 22:55:01,512-test.py:25-testLog- 
+2015-10-26 22:55:01,512-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 22:55:01,513-test.py:63-testLog-执行dirFileOne
+2015-10-26 22:55:01,513-test.py:77-testLog-ui测试dirFileOne失败
+2015-10-26 22:55:01,514-test.py:63-testLog-执行testBase
+2015-10-26 22:55:01,514-test.py:77-testLog-ui测试testBase失败
+2015-10-26 22:55:05,529-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-26 22:55:05,529-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 13, in runTest
+    oneTest.plot()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 140, in plot
+    ax=fig.scatter(x_values,y_values)
+AttributeError: 'Figure' object has no attribute 'scatter'
+
+2015-10-26 22:55:39,069-test.py:25-testLog- 
+2015-10-26 22:55:39,069-test.py:26-testLog-本次执行测试 ['dirFileOne.py', 'testBase.py']
+2015-10-26 22:55:39,069-test.py:63-testLog-执行dirFileOne
+2015-10-26 22:55:39,070-test.py:77-testLog-ui测试dirFileOne失败
+2015-10-26 22:55:39,070-test.py:63-testLog-执行testBase
+2015-10-26 22:55:39,071-test.py:77-testLog-ui测试testBase失败

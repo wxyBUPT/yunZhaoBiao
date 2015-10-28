@@ -24,6 +24,11 @@ class TestForOneTime(object):
         sys.path.insert(0,testConf.uiTestScriptDir)
         logger.info(u' ')
         logger.info(u'本次执行测试 %s'%(a))
+        #下面包含了一些全局的信息，包括总共需要执行了多少脚本，实际执行了多少脚本成功执行的脚本的个数，失败执行的脚本个数
+        self.needRunCount=len(self.listMoudle)
+        self.runCount=0
+        self.failCount=0
+        self.sucessCount=0
 
     def __addEmailInfo(self,res,testScript):
         '''
@@ -39,7 +44,6 @@ class TestForOneTime(object):
         info['backEndDeveloper']=res['backEndDeveloper']
         info['frontEndDeveloper']=res['frontEndDeveloper']
         info['uiTester']=res['uiTester']
-
         def addInfoTo(developer):
             if res[developer]==None:
                 return 0
@@ -59,14 +63,20 @@ class TestForOneTime(object):
             logger.info(u'执行%s'%(i))
             a=imp.find_module(i)
             mod_all=imp.load_module(i,a[0],a[1],a[2])
+            print mod_all
             uiTest=mod_all.uiTest
-            uiTest.runTest()
-            res=uiTest.getRes()
-            res=json.loads(res)
-            if res['res']==0:
-                self.__addEmailInfo(res,'%s.py'%(i))
+            print uiTest
+            #uiTest.runTest()
+            self.runCount+=1
+            tmp=uiTest.getRes()
+            print tmp
+            tmp=json.loads(tmp)
+            if tmp['res']==0:
+                self.failCount+=1
+                self.__addEmailInfo(tmp,'%s.py'%(i))
                 logger.info(u'ui测试%s失败'%(i))
             else:
+                self.sucessCount+=1
                 logger.info(u'ui测试%s成功'%(i))
 
     def __getEmaiTab(self,listInfo):
@@ -77,9 +87,13 @@ class TestForOneTime(object):
         :return:
         '''
         import tablib
-        headers=(u'模块描述',u'测试文件',u'测试文件返回的错误描述',u'运行图片文件路径',u'后台开发人员',
-                 u'前端开发人员',u'测试用例编写人员')
+        headers=[u'模块描述',u'测试文件',u'测试文件返回的错误描述',u'运行图片文件路径',u'后台开发人员',
+                 u'前端开发人员',u'测试用例编写人员']
         data=[]
+        label=[u'本次需要执行的测试脚本个数',u'本次实际执行的测试脚本个数',u'本次执行成功的脚本个数',u'本次执行失败的脚本个数']
+        data.append(label)
+        res=[self.needRunCount,self.runCount,self.sucessCount,self.failCount]
+        data.append(res)
         for info in listInfo:
             aline=[]
             attris=('des','testFile','detail','failPicDir','backEndDeveloper','frontEndDeveloper',
@@ -87,6 +101,23 @@ class TestForOneTime(object):
             for attri in attris:
                 aline.append(info[attri])
             data.append(aline)
+        #print data
+        def verifyData(data,headers):
+            '''
+            返回维数符合标准的data数据
+            :param data:
+            :return:
+            '''
+            maxCount=0
+            for line in data:
+                l=len(line)
+                maxCount=l if l>maxCount else maxCount
+            for line in data:
+                for i in range(len(line),maxCount):
+                    line.append(u'')
+            for i in range(len(headers),maxCount):
+                headers.append(u'')
+        verifyData(data,headers)
         return tablib.Dataset(*data,headers=headers)
 
     def sendMail(self):
@@ -94,6 +125,20 @@ class TestForOneTime(object):
             receiverEmail=EmailAdd[key]
             a=self.__getEmaiTab(self.dictEmailInfo[key])
             SmtpEmailSender().sendEmailTo(receiverEmail,a.html)
+
+    def plot(self):
+        '''
+        画图模块，暂时只是做一个演示
+        :return:
+        '''
+        import matplotlib
+        import matplotlib.pylab
+        y_values=[self.needRunCount,self.runCount,self.failCount,self.sucessCount]
+        x_values=[i for i in range(1,len(y_values)+1)]
+        fig=matplotlib.pylab.figure()
+        ax=fig.add_subplot(111)
+        ax.scatter(x_values,y_values)
+        matplotlib.pylab.show()
 
 if __name__=="__main__":
     #a=TestForOneTime()
