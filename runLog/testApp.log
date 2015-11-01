@@ -814,3 +814,399 @@ AttributeError: 'Figure' object has no attribute 'scatter'
 2015-10-26 22:55:39,070-test.py:77-testLog-ui测试dirFileOne失败
 2015-10-26 22:55:39,070-test.py:63-testLog-执行testBase
 2015-10-26 22:55:39,071-test.py:77-testLog-ui测试testBase失败
+2015-10-29 10:27:01,283-test.py:29-testLog- 
+2015-10-29 10:27:01,284-test.py:30-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 10:27:01,284-test.py:67-testLog-执行dirFileOne
+2015-10-29 10:27:01,286-test.py:81-testLog-ui测试dirFileOne失败
+2015-10-29 10:27:01,286-test.py:67-testLog-执行processOne
+2015-10-29 10:27:01,287-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 10:27:01,288-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 69, in runTest
+    mod_all=imp.load_module(i,a[0],a[1],a[2])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 25
+    TestBase.__init__(backEndDeveloper=backEndDeveloper,backEndLang=backEndLang,frontEndDeveloper=frontEndDeveloper,frontEndDeveloper=frontEndDeveloper,
+SyntaxError: keyword argument repeated
+
+2015-10-29 10:29:46,084-test.py:30-testLog- 
+2015-10-29 10:29:46,085-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 10:29:46,085-test.py:68-testLog-执行dirFileOne
+2015-10-29 10:29:46,085-test.py:82-testLog-ui测试dirFileOne失败
+2015-10-29 10:29:46,086-test.py:68-testLog-执行processOne
+2015-10-29 10:29:46,087-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 10:29:46,088-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 70, in runTest
+    mod_all=imp.load_module(i,a[0],a[1],a[2])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 24
+    TestBase.__init__(backEndDeveloper=backEndDeveloper,backEndLang=backEndLang,frontEndDeveloper=frontEndDeveloper,frontEndDeveloper=frontEndDeveloper,
+SyntaxError: keyword argument repeated
+
+2015-10-29 10:31:36,707-test.py:30-testLog- 
+2015-10-29 10:31:36,707-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 10:31:36,708-test.py:68-testLog-执行dirFileOne
+2015-10-29 10:31:36,708-test.py:82-testLog-ui测试dirFileOne失败
+2015-10-29 10:31:36,709-test.py:68-testLog-执行processOne
+2015-10-29 10:31:36,739-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 10:31:36,739-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 70, in runTest
+    mod_all=imp.load_module(i,a[0],a[1],a[2])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 121, in <module>
+    uiTest=ProcessOne()
+TypeError: __init__() takes at least 3 arguments (1 given)
+
+2015-10-29 10:33:30,814-test.py:30-testLog- 
+2015-10-29 10:33:30,815-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 10:33:30,815-test.py:68-testLog-执行dirFileOne
+2015-10-29 10:33:30,816-test.py:82-testLog-ui测试dirFileOne失败
+2015-10-29 10:33:30,816-test.py:68-testLog-执行processOne
+2015-10-29 10:33:33,004-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 10:33:33,004-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 70, in runTest
+    mod_all=imp.load_module(i,a[0],a[1],a[2])
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 127, in <module>
+    uiTest=ProcessOne(driver,62)
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 25, in __init__
+    frontEndLan=frontEndLan,uiTester=uiTester,description=description)
+TypeError: unbound method __init__() must be called with TestBase instance as first argument (got nothing instead)
+
+2015-10-29 11:00:52,234-test.py:30-testLog- 
+2015-10-29 11:00:52,235-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:00:52,235-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:00:52,236-test.py:82-testLog-ui测试dirFileOne失败
+2015-10-29 11:00:52,236-test.py:68-testLog-执行processOne
+2015-10-29 11:00:52,265-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:00:52,265-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 76, in runTest
+    tmp=uiTest.getRes()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/testBase.py", line 55, in getRes
+    self._runTest()
+TypeError: _runTest() takes exactly 3 arguments (1 given)
+
+2015-10-29 11:02:17,794-test.py:30-testLog- 
+2015-10-29 11:02:17,794-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:02:17,794-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:02:17,795-test.py:82-testLog-ui测试dirFileOne失败
+2015-10-29 11:02:17,795-test.py:68-testLog-执行processOne
+2015-10-29 11:02:36,627-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:02:36,628-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 76, in runTest
+    tmp=uiTest.getRes()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 148, in getRes
+    self._runTest(driver,61)
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 119, in _runTest
+    processOne=ProcessOne(driver,proId)
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 26, in __init__
+    self.success=self.completeProZero()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 43, in completeProZero
+    tmpOptions=self.driver.find_element_by_css_selector('html.ng-scope body div.ng-scope div.wrap.ng-scope div.wrap_r div.w_r_t div.ng-scope div.wrt_xxin.ng-scope div.ng-scope div.wrt_xxin_l.ng-scope div.wrt_x_l_c div.ng-scope div.wrt_xltb1it_li select.wrtxlc_li_txt1.yh.ng-pristine.ng-valid')
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 397, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 707, in find_element
+    {'using': by, 'value': value})['value']
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchElementException: Message: Unable to locate element: {"method":"css selector","selector":"html.ng-scope body div.ng-scope div.wrap.ng-scope div.wrap_r div.w_r_t div.ng-scope div.wrt_xxin.ng-scope div.ng-scope div.wrt_xxin_l.ng-scope div.wrt_x_l_c div.ng-scope div.wrt_xltb1it_li select.wrtxlc_li_txt1.yh.ng-pristine.ng-valid"}
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/p7/0wgl9v7s63q112sl16dkyc9c0000gn/T/tmpYEvduW/extensions/fxdriver@googlecode.com/components/driver-component.js:10667)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/p7/0wgl9v7s63q112sl16dkyc9c0000gn/T/tmpYEvduW/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+
+2015-10-29 11:06:16,514-test.py:30-testLog- 
+2015-10-29 11:06:16,514-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:06:16,514-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:06:16,515-test.py:82-testLog-ui测试dirFileOne失败
+2015-10-29 11:06:16,515-test.py:68-testLog-执行processOne
+2015-10-29 11:06:36,176-test.py:82-testLog-ui测试processOne失败
+2015-10-29 11:06:36,176-test.py:68-testLog-执行testBase
+2015-10-29 11:06:36,177-test.py:82-testLog-ui测试testBase失败
+2015-10-29 11:08:21,962-test.py:30-testLog- 
+2015-10-29 11:08:21,962-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:08:21,962-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:08:21,964-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:08:21,964-test.py:68-testLog-执行processOne
+2015-10-29 11:09:16,772-test.py:85-testLog-ui测试processOne成功
+2015-10-29 11:09:16,772-test.py:68-testLog-执行testBase
+2015-10-29 11:09:16,772-test.py:85-testLog-ui测试testBase成功
+2015-10-29 11:10:55,587-test.py:30-testLog- 
+2015-10-29 11:10:55,587-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:10:55,588-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:10:55,588-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:10:55,589-test.py:68-testLog-执行processOne
+2015-10-29 11:11:53,037-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:11:53,040-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 76, in runTest
+    tmp=uiTest.getRes()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 165, in getRes
+    driver.close()
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 468, in close
+    self.execute(Command.CLOSE)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 194, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 395, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 425, in _request
+    self._conn.request(method, parsed_url.path, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1053, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1093, in _send_request
+    self.endheaders(body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1049, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 893, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 855, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 832, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 61] Connection refused
+
+2015-10-29 11:12:10,504-test.py:30-testLog- 
+2015-10-29 11:12:10,504-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:12:10,504-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:12:10,505-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:12:10,506-test.py:68-testLog-执行processOne
+2015-10-29 11:12:32,661-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:12:32,663-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 76, in runTest
+    tmp=uiTest.getRes()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 165, in getRes
+    driver.close()
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 468, in close
+    self.execute(Command.CLOSE)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 194, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 395, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 425, in _request
+    self._conn.request(method, parsed_url.path, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1053, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1087, in _send_request
+    self.putrequest(method, url, **skips)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 935, in putrequest
+    raise CannotSendRequest()
+CannotSendRequest
+
+2015-10-29 11:14:49,734-test.py:30-testLog- 
+2015-10-29 11:14:49,735-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:14:49,735-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:14:49,736-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:14:49,736-test.py:68-testLog-执行processOne
+2015-10-29 11:15:09,405-test.py:82-testLog-ui测试processOne失败
+2015-10-29 11:15:09,405-test.py:68-testLog-执行testBase
+2015-10-29 11:15:09,405-test.py:85-testLog-ui测试testBase成功
+2015-10-29 11:21:35,622-test.py:30-testLog- 
+2015-10-29 11:21:35,622-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:21:35,623-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:21:35,623-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:21:35,623-test.py:68-testLog-执行processOne
+2015-10-29 11:21:53,927-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:21:53,927-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 76, in runTest
+    tmp=uiTest.getRes()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 161, in getRes
+    res['detail']=self.res['detail']
+KeyError: 'detail'
+
+2015-10-29 11:22:45,699-test.py:30-testLog- 
+2015-10-29 11:22:45,699-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:22:45,699-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:22:45,700-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:22:45,700-test.py:68-testLog-执行processOne
+2015-10-29 11:23:03,879-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:23:03,880-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 76, in runTest
+    tmp=uiTest.getRes()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 161, in getRes
+    res['detail']=self.res['detail']
+KeyError: 'detail'
+
+2015-10-29 11:23:45,030-test.py:30-testLog- 
+2015-10-29 11:23:45,030-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:23:45,030-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:23:45,031-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:23:45,031-test.py:68-testLog-执行processOne
+2015-10-29 11:24:16,309-test.py:85-testLog-ui测试processOne成功
+2015-10-29 11:24:16,309-test.py:68-testLog-执行testBase
+2015-10-29 11:24:16,310-test.py:85-testLog-ui测试testBase成功
+2015-10-29 11:27:31,735-test.py:30-testLog- 
+2015-10-29 11:27:31,735-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:27:31,735-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:27:31,736-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:27:31,736-test.py:68-testLog-执行processOne
+2015-10-29 11:27:50,121-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:27:50,122-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 81, in runTest
+    self.__addEmailInfo(tmp,'%s.py'%(i))
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 47, in __addEmailInfo
+    info['detail']=res['detail']
+KeyError: 'detail'
+
+2015-10-29 11:28:48,547-test.py:30-testLog- 
+2015-10-29 11:28:48,547-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:28:48,547-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:28:48,548-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:28:48,548-test.py:68-testLog-执行processOne
+2015-10-29 11:29:07,073-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:29:07,074-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 81, in runTest
+    self.__addEmailInfo(tmp,'%s.py'%(i))
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 46, in __addEmailInfo
+    info['failPicDir']=res['failPicDir']
+KeyError: 'failPicDir'
+
+2015-10-29 11:29:28,054-test.py:30-testLog- 
+2015-10-29 11:29:28,054-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:29:28,054-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:29:28,055-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:29:28,055-test.py:68-testLog-执行processOne
+2015-10-29 11:29:46,307-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:29:46,307-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 81, in runTest
+    self.__addEmailInfo(tmp,'%s.py'%(i))
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 46, in __addEmailInfo
+    info['failPicDir']=res['failPicDir']
+KeyError: 'failPicDir'
+
+2015-10-29 11:31:00,811-test.py:30-testLog- 
+2015-10-29 11:31:00,811-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:31:00,812-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:31:00,812-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:31:00,813-test.py:68-testLog-执行processOne
+2015-10-29 11:31:22,006-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:31:22,006-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 81, in runTest
+    self.__addEmailInfo(tmp,'%s.py'%(i))
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 46, in __addEmailInfo
+    info['failPicDir']=res['failPicDir']
+KeyError: 'failPicDir'
+
+2015-10-29 11:31:36,668-test.py:30-testLog- 
+2015-10-29 11:31:36,668-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:31:36,668-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:31:36,669-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:31:36,669-test.py:68-testLog-执行processOne
+2015-10-29 11:31:46,695-testLogic.py:44-testLog-今天的测试任务出现了bug
+2015-10-29 11:31:46,697-testLogic.py:45-testLog-Traceback (most recent call last):
+  File "testLogic.py", line 42, in run
+    runTest()
+  File "testLogic.py", line 11, in runTest
+    oneTest.runTest()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/manage/test.py", line 76, in runTest
+    tmp=uiTest.getRes()
+  File "/Users/xiyuanbupt/PycharmProjects/yunZhaoBiao/dirTest/processOne.py", line 153, in getRes
+    driver.close()
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 468, in close
+    self.execute(Command.CLOSE)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 194, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 395, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/Library/Python/2.7/site-packages/selenium/webdriver/remote/remote_connection.py", line 425, in _request
+    self._conn.request(method, parsed_url.path, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1053, in request
+    self._send_request(method, url, body, headers)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1093, in _send_request
+    self.endheaders(body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1049, in endheaders
+    self._send_output(message_body)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 893, in _send_output
+    self.send(msg)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 855, in send
+    self.connect()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 832, in connect
+    self.timeout, self.source_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 61] Connection refused
+
+2015-10-29 11:32:46,925-test.py:30-testLog- 
+2015-10-29 11:32:46,925-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:32:46,925-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:32:46,926-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:32:46,926-test.py:68-testLog-执行processOne
+2015-10-29 11:33:18,489-test.py:85-testLog-ui测试processOne成功
+2015-10-29 11:33:18,489-test.py:68-testLog-执行testBase
+2015-10-29 11:33:18,490-test.py:85-testLog-ui测试testBase成功
+2015-10-29 11:34:46,649-test.py:30-testLog- 
+2015-10-29 11:34:46,650-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:34:46,650-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:34:46,651-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:34:46,651-test.py:68-testLog-执行testBase
+2015-10-29 11:34:46,652-test.py:85-testLog-ui测试testBase成功
+2015-10-29 11:35:20,157-test.py:30-testLog- 
+2015-10-29 11:35:20,158-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:35:20,158-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:35:20,160-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:35:20,160-test.py:68-testLog-执行testBase
+2015-10-29 11:35:20,160-test.py:85-testLog-ui测试testBase成功
+2015-10-29 11:36:00,052-test.py:30-testLog- 
+2015-10-29 11:36:00,052-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:36:00,052-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:36:00,053-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:36:00,053-test.py:68-testLog-执行testBase
+2015-10-29 11:36:00,054-test.py:85-testLog-ui测试testBase成功
+2015-10-29 11:36:59,764-test.py:30-testLog- 
+2015-10-29 11:36:59,764-test.py:31-testLog-本次执行测试 ['dirFileOne.py', 'LoginPage.py', 'process.py', 'processOne.py', 'testBase.py']
+2015-10-29 11:36:59,764-test.py:68-testLog-执行dirFileOne
+2015-10-29 11:36:59,765-test.py:85-testLog-ui测试dirFileOne成功
+2015-10-29 11:36:59,766-test.py:68-testLog-执行testBase
+2015-10-29 11:36:59,766-test.py:85-testLog-ui测试testBase成功

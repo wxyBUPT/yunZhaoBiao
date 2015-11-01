@@ -30,7 +30,7 @@ class TestBase(object):
         print u'我正在执行，相关测试结果需要在这里赋值'
         res={}
         #1 代表执行成功，0代表执行不成功
-        res['res']=0
+        res['res']=1
         res['backEndDeveloper']=self.backEndDeveloper
         res['backEndLang']=self.backEndLang
         res['frontEndDeveloper']=self.frontEndDeveloper

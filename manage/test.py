@@ -21,6 +21,11 @@ class TestForOneTime(object):
         self.testTime=datetime.datetime.now()
         a=[x for x in os.listdir(testConf.uiTestScriptDir) if ((re.search(r'\.py$',x)) and not (re.match(r'__init__\.py',x)) )]
         self.listMoudle=[x.split('.')[0] for x in a]
+        def delRunScript(listMoudle,delList):
+            #返回差集
+            return [i for i in listMoudle if i not in delList]
+        self.listMoudle=delRunScript(self.listMoudle,['LoginPage','process','processOne'])
+        print u'需要执行的测试有%s'%(self.listMoudle)
         sys.path.insert(0,testConf.uiTestScriptDir)
         logger.info(u' ')
         logger.info(u'本次执行测试 %s'%(a))
